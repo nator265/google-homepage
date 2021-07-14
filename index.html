@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/simple.css">
+    <title>Google</title>
+</head>
+<body>
+    <!-- navigation -->
+    <div class="nav-container">
+        <div class="top-nav">
+            <div class="nav1">
+                <span class="gm">
+                    <a href="#" style="color: rgb(65, 65, 65);"> Gmail </a>
+                </span>
+                <span class="im"> 
+                    <a href="#" style="color: rgb(65, 65, 65);"> Images </a> 
+                </span>
+            </div>
+            <div class="nav2">
+                <div class="circ">
+                    <button class="circle"> <a href="#"><img src="icons/menu1.png" alt="google-apps"> </a> 
+                        <div class="tooltip">
+                            google apps
+                        </div>
+                    </button>
+                </div>
+                <div class="btn"> 
+                    <a href="#"><button class="sign-in"> Sign-in </button> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- google logo -->
+    <div class="logo-container">
+        <div class="logo">
+            <img src="icons/logo.png" alt="google-logo" height="102vh">
+        </div>
+    </div>
+    <!-- the middle body -->
+    <div class="search-container">
+        <div class="search-tab">
+            <div class="search-tab2" >
+                <div class="out-tab">    
+                    <div class="tab" id="tab" onclick="style.boxShadow='0.1px 0.1px 5px rgb(209, 209, 209), -0.1px -0.1px 5px rgb(196, 196, 196)'">
+                        <div class="s-ic">
+                            <img src="icons/search.png" alt="search" height="15px" style="filter:contrast(20%)">
+                        </div>
+                        <!-- input bar -->
+                        <div class="input">
+                        <input type="text" id="text" oninput="document.getElementById('clear').style.visibility='visible'; document.getElementById('bar').style.visibility='visible'">
+                        </div>
+
+                        <div class="clear" onclick="document.getElementById('text').value = ''"id="clear" >
+                            &times;
+                            <div class="tooltip2">
+                                Clear
+                            </div>
+                        </div>
+
+                        <div class="bar" id="bar"></div>
+
+                        <div class="mic">
+                            <img src="icons/mic.png" alt="voice-mic" height="30px">
+                            <div class="tooltip3">
+                                search by voice
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- button below the search bar -->
+                <div class="buttons-container">
+                    <div class="button1">
+                        <button class="btn1">Google Search</button>
+                    </div>
+                    <div class="button2">
+                        <button class="btn2">I'm Feeling Lucky</button>
+                    </div>
+                </div>
+
+                <div class="words">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- the footer -->
+    <div class="footer">
+        <div class="foot">
+            <div class="first-links">
+                <div class="first-links1">
+                    <div class="one">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> About</a>
+                    </div>
+                    <div class="two">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> Advertising</a>
+                    </div>
+                    <div class="three">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> Business</a>
+                    </div>
+                    <div class="four">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> How search works</a>
+                    </div>
+                </div>
+            </div>
+            <div class="second-links">
+                <div class="second-links2">
+                    <div class="five">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> Privacy</a>
+                    </div>
+                    <div class="six">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> Terms</a>
+                    </div>
+                    <div class="seven">
+                        <a href="#" style="color: rgba(10, 10, 10, 0.589)"> Settings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
